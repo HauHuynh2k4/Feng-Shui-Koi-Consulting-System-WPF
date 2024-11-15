@@ -43,10 +43,15 @@ Koi Feng Shui Consulting System is a WPF (Windows Presentation Foundation) appli
 ## Project Structure
 
 KoiFengShui.BE/
+
 ├── FengShuiKoi_BO/ # Business Objects
+
 ├── FengShuiKoi_DAO/ # Data Access Objects
+
 ├── FengShuiKoi_Repository/ # Repositories
+
 ├── FengShuiKoi_Services/ # Business Services
+
 └── KoiFengShuiSystem/ # WPF Application
 
 ## Installation
