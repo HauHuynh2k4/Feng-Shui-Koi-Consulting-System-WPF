@@ -1,0 +1,61 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Img\1348333.png" />
+    <None Remove="Img\3731.png_1200.png" />
+    <None Remove="Img\anh-nen-ca-koi-hd_090133266.jpg" />
+    <None Remove="Img\createKoi.jpg" />
+    <None Remove="Img\hinh-nen-ca-koi-de-thuong_090136675.jpg" />
+    <None Remove="Img\koi-fish-1920-x-1080-background-p4ejdybjvmurg1ok.jpg" />
+    <None Remove="Img\koi20.jpg" />
+    <None Remove="Img\koiManage.jpg" />
+    <None Remove="Img\koiManage1.jpg" />
+    <None Remove="Img\login.jpg" />
+    <None Remove="Img\logo-ca-Koi-12.png" />
+    <None Remove="Img\menu.jpg" />
+    <None Remove="Img\pointManagement.png" />
+    <None Remove="Img\pondmanagement.png" />
+    <None Remove="Img\sidebar.jpg" />
+    <None Remove="Img\ying-yang-koi-fish-ai-artwork-554.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Img\anh-nen-ca-koi-hd_090133266.jpg" />
+    <Resource Include="Img\createKoi.jpg" />
+    <Resource Include="Img\hinh-nen-ca-koi-de-thuong_090136675.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FengShuiKoi_Services\FengShuiKoi_Services.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Img\1348333.png" />
+    <Resource Include="Img\koi20.jpg" />
+    <Resource Include="Img\koiManage.jpg" />
+    <Resource Include="Img\koiManage1.jpg" />
+    <Resource Include="Img\login.jpg" />
+    <Resource Include="Img\menu.jpg" />
+    <Resource Include="Img\pointManagement.png" />
+    <Resource Include="Img\pondmanagement.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Img\sidebar.jpg" />
+    <Resource Include="Img\ying-yang-koi-fish-ai-artwork-554.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
